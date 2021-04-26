@@ -1,0 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.box{
+	position: relative;
+	top:50px;
+	left: 200px;
+	background: blue;
+	width: 400px;
+	height: auto;
+	box-sizing: border-box;
+	
+}
+.front{
+	position: relative;
+	background: orange;
+	transform: perspective(900px) rotateY(180deg);
+	width: 100px;
+	height: 100px;
+	float: left;
+	transition: 2s;
+	font-size: 0px;
+	text-align: center;
+	border:1px solid black;
+
+}
